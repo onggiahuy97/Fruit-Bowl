@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="212px" viewBox="0 0 212 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-191.000000, -321.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(191.000000, 321.000000)">
+                <path d="M82,45 C82,69.8528 61.8528,90 37,90 C12.1472,90 0.5,69.8528 0.5,45 C0.5,20.1472 19.1472,0.5 44,0.5 C68.8528,0.5 82,20.1472 82,45 Z" id="Path" fill="#7ACC78"></path>
+                <path d="M93,133.5 C93,154.211 70.3904,171 42.5,171 C14.6096,171 12.5,151.211 12.5,130.5 C12.5,109.789 14.6096,96 42.5,96 C70.3904,96 93,112.789 93,133.5 Z" id="Path" fill="#7ACC78"></path>
+                <path d="M212,166.205 C212,186.915 199.89,211.205 172,211.205 C144.11,211.205 134,192.415 134,171.705 C134,150.994 134.61,166.205 162.5,166.205 C190.39,166.205 212,145.494 212,166.205 Z" id="Path" fill="#BE9170"></path>
+                <rect id="Rectangle" fill="#7ACC78" transform="translate(88.781129, 139.943565) rotate(22.437100) translate(-88.781129, -139.943565) " x="50.5560294" y="130.905115" width="76.4502" height="18.0769" rx="9.03845"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

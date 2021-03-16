@@ -13,6 +13,17 @@
 		3E93551125FEE01400839029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E93551025FEE01400839029 /* Assets.xcassets */; };
 		3E93551425FEE01400839029 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E93551325FEE01400839029 /* Preview Assets.xcassets */; };
 		3E93551725FEE01400839029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E93551525FEE01400839029 /* LaunchScreen.storyboard */; };
+		3E93552125FEE15800839029 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93552025FEE15800839029 /* LoginView.swift */; };
+		3E93552425FEE4C700839029 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93552325FEE4C700839029 /* CustomButton.swift */; };
+		3E93552725FEE54800839029 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93552625FEE54800839029 /* Color+Extensions.swift */; };
+		3E93552B25FF3A3700839029 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93552A25FF3A3700839029 /* SignInView.swift */; };
+		3E93552E25FF3DED00839029 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93552D25FF3DED00839029 /* RegisterView.swift */; };
+		3E93553125FF3E7B00839029 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93553025FF3E7B00839029 /* CustomTextField.swift */; };
+		3E93553425FF42F600839029 /* CustomCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93553325FF42F600839029 /* CustomCheckBox.swift */; };
+		3E93553B25FFD3D500839029 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93553A25FFD3D500839029 /* UserController.swift */; };
+		3E93553E25FFD65F00839029 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93553D25FFD65F00839029 /* HomeView.swift */; };
+		3E93554125FFDEA500839029 /* NewFeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93554025FFDEA500839029 /* NewFeedsView.swift */; };
+		3E93554526000C8800839029 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93554426000C8800839029 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,18 @@
 		3E93551325FEE01400839029 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3E93551625FEE01400839029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E93551825FEE01400839029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E93552025FEE15800839029 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3E93552325FEE4C700839029 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		3E93552625FEE54800839029 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		3E93552A25FF3A3700839029 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3E93552D25FF3DED00839029 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3E93553025FF3E7B00839029 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3E93553325FF42F600839029 /* CustomCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckBox.swift; sourceTree = "<group>"; };
+		3E93553A25FFD3D500839029 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		3E93553D25FFD65F00839029 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3E93554025FFDEA500839029 /* NewFeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedsView.swift; sourceTree = "<group>"; };
+		3E93554426000C8800839029 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		3E935547260022E200839029 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +82,18 @@
 				3E93550A25FEE01200839029 /* AppDelegate.swift */,
 				3E93550C25FEE01200839029 /* SceneDelegate.swift */,
 				3E93550E25FEE01200839029 /* ContentView.swift */,
+				3E93553D25FFD65F00839029 /* HomeView.swift */,
+				3E93554025FFDEA500839029 /* NewFeedsView.swift */,
+				3E93554326000C7F00839029 /* Settings */,
+				3E93552025FEE15800839029 /* LoginView.swift */,
+				3E93552A25FF3A3700839029 /* SignInView.swift */,
+				3E93552D25FF3DED00839029 /* RegisterView.swift */,
+				3E93552325FEE4C700839029 /* CustomButton.swift */,
+				3E93553325FF42F600839029 /* CustomCheckBox.swift */,
+				3E93552625FEE54800839029 /* Color+Extensions.swift */,
+				3E93553025FF3E7B00839029 /* CustomTextField.swift */,
+				3E93553A25FFD3D500839029 /* UserController.swift */,
+				3E935547260022E200839029 /* MyPlayground.playground */,
 				3E93551025FEE01400839029 /* Assets.xcassets */,
 				3E93551525FEE01400839029 /* LaunchScreen.storyboard */,
 				3E93551825FEE01400839029 /* Info.plist */,
@@ -73,6 +108,14 @@
 				3E93551325FEE01400839029 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E93554326000C7F00839029 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3E93554426000C8800839029 /* SettingView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +189,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E93550B25FEE01200839029 /* AppDelegate.swift in Sources */,
+				3E93553425FF42F600839029 /* CustomCheckBox.swift in Sources */,
+				3E93552B25FF3A3700839029 /* SignInView.swift in Sources */,
+				3E93554526000C8800839029 /* SettingView.swift in Sources */,
+				3E93554125FFDEA500839029 /* NewFeedsView.swift in Sources */,
+				3E93553B25FFD3D500839029 /* UserController.swift in Sources */,
 				3E93550D25FEE01200839029 /* SceneDelegate.swift in Sources */,
+				3E93552125FEE15800839029 /* LoginView.swift in Sources */,
 				3E93550F25FEE01200839029 /* ContentView.swift in Sources */,
+				3E93552E25FF3DED00839029 /* RegisterView.swift in Sources */,
+				3E93552425FEE4C700839029 /* CustomButton.swift in Sources */,
+				3E93553E25FFD65F00839029 /* HomeView.swift in Sources */,
+				3E93552725FEE54800839029 /* Color+Extensions.swift in Sources */,
+				3E93553125FF3E7B00839029 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +342,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ProductService/Preview Content\"";
+				DEVELOPMENT_TEAM = B6LXP9JCNK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ProductService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,8 +364,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ProductService/Preview Content\"";
+				DEVELOPMENT_TEAM = B6LXP9JCNK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ProductService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
