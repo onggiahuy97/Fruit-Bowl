@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RegisterView: View {
+    @EnvironmentObject var uc: UserController
     @State private var fName = ""
     @State private var lName = ""
     @State private var username = ""
@@ -19,7 +20,6 @@ struct RegisterView: View {
     var getInfomationView: some View {
         VStack {
             CustomTextField("First name", text: $fName)
-            CustomTextField("Last name", text: $lName)
             CustomTextField("Last name", text: $lName)
             CustomTextField("Username", text: $username)
             CustomTextField("Email", text: $email)
@@ -50,7 +50,9 @@ struct RegisterView: View {
                     .padding(.leading, 30)
                 getInfomationView
                 CustomButton(text: "Submit", textColor: .white, bgColor: .black) {
-                    
+                    let user = User(fName: fName.trimmingCharacters(in: .whitespacesAndNewlines),
+                                    lName: lName.trimmingCharacters(in: .whitespacesAndNewlines))
+                    uc.updateUser(user)
                 }
                 Spacer()
             }

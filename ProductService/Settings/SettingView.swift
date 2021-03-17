@@ -22,16 +22,14 @@ struct SettingView: View {
                 .clipShape(Circle())
                 .frame(width: 116, height: 116)
                 .shadow(color: Color.black.opacity(0.5), radius: 3, x: 3, y: 3)
-            Text("Huy Ong")
+            Text(uc.user.fullName)
                 .font(.system(size: 18, weight: .bold))
         }
         .padding()
     }
     
     var logoutButton: some View {
-        Button("Log out", action: {
-            uc.isLoggedIn = false
-        })
+        Button("Sign out", action: uc.signOut)
     }
     
     var informationView: some View {
@@ -58,6 +56,7 @@ struct SettingView: View {
                 Divider().padding(.horizontal)
                 Text("\"This is a test for quotation mark This is a\"")
                     .font(.subheadline)
+                    .padding(.horizontal)
             }
         }
     }

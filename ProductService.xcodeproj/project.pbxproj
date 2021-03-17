@@ -24,6 +24,8 @@
 		3E93553E25FFD65F00839029 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93553D25FFD65F00839029 /* HomeView.swift */; };
 		3E93554125FFDEA500839029 /* NewFeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93554025FFDEA500839029 /* NewFeedsView.swift */; };
 		3E93554526000C8800839029 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93554426000C8800839029 /* SettingView.swift */; };
+		3E93557126017FAC00839029 /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93557026017FAC00839029 /* UserDefault+Extension.swift */; };
+		3E93557426017FED00839029 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E93557326017FED00839029 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		3E93554025FFDEA500839029 /* NewFeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedsView.swift; sourceTree = "<group>"; };
 		3E93554426000C8800839029 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		3E935547260022E200839029 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3E93557026017FAC00839029 /* UserDefault+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		3E93557326017FED00839029 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				3E93552625FEE54800839029 /* Color+Extensions.swift */,
 				3E93553025FF3E7B00839029 /* CustomTextField.swift */,
 				3E93553A25FFD3D500839029 /* UserController.swift */,
+				3E93557326017FED00839029 /* User.swift */,
+				3E93557026017FAC00839029 /* UserDefault+Extension.swift */,
 				3E935547260022E200839029 /* MyPlayground.playground */,
 				3E93551025FEE01400839029 /* Assets.xcassets */,
 				3E93551525FEE01400839029 /* LaunchScreen.storyboard */,
@@ -192,7 +198,9 @@
 				3E93553425FF42F600839029 /* CustomCheckBox.swift in Sources */,
 				3E93552B25FF3A3700839029 /* SignInView.swift in Sources */,
 				3E93554526000C8800839029 /* SettingView.swift in Sources */,
+				3E93557426017FED00839029 /* User.swift in Sources */,
 				3E93554125FFDEA500839029 /* NewFeedsView.swift in Sources */,
+				3E93557126017FAC00839029 /* UserDefault+Extension.swift in Sources */,
 				3E93553B25FFD3D500839029 /* UserController.swift in Sources */,
 				3E93550D25FEE01200839029 /* SceneDelegate.swift in Sources */,
 				3E93552125FEE15800839029 /* LoginView.swift in Sources */,
